@@ -95,7 +95,7 @@ function detectHit() {
     //Axis Alligned Bounding box collision detection algorithm
     //AABB collision detection
     const ogreLeft = hero.x + hero.width >= ogre.x
-    // console.log('ogreLeft:', ogreLeft)
+    console.log('ogreLeft:', ogreLeft)
     
     const ogreRight = hero.x <= ogre.x + ogre.width
     // console.log('ogreRight:', ogreRight)
